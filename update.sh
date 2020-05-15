@@ -1,7 +1,6 @@
 #!/bin/sh
 UPDATEPATH=`pwd`
-DIR=openjdk8-debian-slim-devel
 
-git clone https://github.com/EdgeSolution/$DIR.git
+git push
 
 cd $DIR && docker-compose up -d
