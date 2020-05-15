@@ -1,15 +1,15 @@
 run:
-	docker-compose -f openjdk8-debian-slim/docker-compose.yml up -d --build
+	docker-compose -f docker-compose.yml up -d --build
 
 stop:
-	docker-compose -f openjdk8-debian-slim/docker-compose.yml stop
+	docker-compose -f docker-compose.yml stop
 
 down:
-	docker-compose -f openjdk8-debian-slim/docker-compose.yml down
+	docker-compose -f docker-compose.yml down
 
 cleandocker:
 	# Stop all containers (if running)
-	docker-compose -f openjdk8-debian-slim/docker-compose.yml stop
+	docker-compose -f docker-compose.yml stop
 	# Remove mainflux containers
 	docker ps -f name=m2m -f name=aimlink_astore -aq | xargs -r docker rm
 	# Remove exited containers
