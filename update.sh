@@ -1,6 +1,6 @@
 #!/bin/sh
 UPDATEPATH=`pwd`
 
-git push
+git pull
 
 cd $DIR && docker-compose up -d
