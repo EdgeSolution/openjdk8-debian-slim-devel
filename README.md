@@ -9,7 +9,7 @@ Download DebianSlim project
 # git clone https://github.com/james0718/openjdk8-debian-slim-devel.git
 
 # Run the Debian slim docker image for AndroidDM
-# cd openjdk8-debian-slim-devel && ./build-docker.sh
+# # cd openjdk8-debian-slim-devel && ./build-docker.sh
 
 # v1.0 version
  - New features
