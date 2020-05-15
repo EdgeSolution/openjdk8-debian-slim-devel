@@ -6,7 +6,7 @@ Install docker docker-compose git
 
 Download DebianSlim project
 
-# git clone https://github.com/james0718/openjdk8-debian-slim.git
+# git clone https://github.com/james0718/openjdk8-debian-slim-devel.git
 
 Run the Debian slim docker image for AndroidDM
 
