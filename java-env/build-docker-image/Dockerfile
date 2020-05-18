@@ -1,5 +1,6 @@
 FROM openjdk:8-jre-slim
 MAINTAINER "advantech"<yao.kang@advantech.com.cn>
+RUN sed -i "s/deb.debian.org/mirrors.ustc.edu.cn/g" /etc/apt/sources.list
 RUN apt-get update && apt-get install -y locales
 RUN sed -ri "s/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/g" /etc/locale.gen
 RUN mkdir -p /root/adv
