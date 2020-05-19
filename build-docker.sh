@@ -1,6 +1,6 @@
 #!/bin/sh
 BUILDPATH=`pwd`
-ANDROIDDM_VERSION=1.0
+ANDROIDDM_VERSION=1.2
 NOVNC_VERSION=1.0
 MQTT_VERSION=1.0
 
@@ -18,3 +18,5 @@ docker build -t edgesolution/androiddm-javaenv-slim-dev:v$ANDROIDDM_VERSION .
 
 cd $BUILDPATH/astore/build-docker-image/
 docker build -t edgesolution/androiddm-astore-slim-dev:v$ANDROIDDM_VERSION .
+
+docker-compose up -d
