@@ -1,5 +1,6 @@
 FROM openjdk:8-jre-slim
 MAINTAINER "advantech"<yao.kang@advantech.com.cn>
+RUN apt-get update && apt-get install -y vim bash
 RUN mkdir -p /root/adv
 RUN mkdir -p /root/adv/conf
 RUN mkdir -p /root/adv/models
