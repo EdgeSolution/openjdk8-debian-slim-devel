@@ -9,6 +9,8 @@ services:
         volumes:
                 - ./java-env/vnctoken:/root/adv/vnctoken 
                 - ./java-env/logs:/root/logs
+                - ./java-env/license:/root/adv/license
+                - ./java-env/solutionAppIcon:/root/adv/solutionAppIcon
                 - /sys:/sys
         ports: 
                 - "8080:8080"
@@ -48,6 +50,7 @@ services:
                 - db
         volumes:
                 - ./astore/logs:/home/logs
+                - ./astore/data:/var/www/html/DEPLOYREPO
         ports:
                 - "30001:30019"
                 - "30002:80"
