@@ -25,6 +25,8 @@ If you need upload image to Dockerhub, please run Release.sh
   - postgres:9.4
   - portainer/portainer
 
+  - add select group  in single mode
+
 # v1.0 version
  - New features
   - add novnc and repeater
