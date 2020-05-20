@@ -4,7 +4,6 @@ ADD run.sh /root/adv/run.sh
 ADD noVNC /root/adv/noVNC
 ADD vnctoken /root/adv/vnctoken
 ADD vncrepeater /root/adv/vncrepeater
-ADD log /root/adv/log
 
 EXPOSE 5901
 EXPOSE 5500
