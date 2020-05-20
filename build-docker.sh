@@ -4,9 +4,6 @@ ANDROIDDM_VERSION=1.2
 NOVNC_VERSION=1.0
 MQTT_VERSION=1.0
 
-cp -f m2mserver.jar $BUILDPATH/java-env/build-docker-image/
-cp -f astore.jar $BUILDPATH/astore/build-docker-image/
-
 cd $BUILDPATH/mosquitto/
 docker build -t edgesolution/androiddm-mosquitto-dev:v$MQTT_VERSION .
 
