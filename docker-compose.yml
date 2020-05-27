@@ -1,7 +1,7 @@
 version: '3'
 services:
      androidlink: 
-        image: edgesolution/androiddm-javaenv-slim-dev:v1.6.3
+        image: edgesolution/androiddm-javaenv-slim-dev:v1.6.4
         restart: always
         depends_on:
                 - mqtt
