@@ -44,7 +44,7 @@ services:
         networks: 
               - advnet
      astore:
-        image: edgesolution/androiddm-astore-slim-dev:v1.6.3
+        image: edgesolution/androiddm-astore-slim-dev:v1.6.4
         restart: always
         depends_on:
                 - db
