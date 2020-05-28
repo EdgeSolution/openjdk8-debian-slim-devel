@@ -16,7 +16,7 @@ docker tag edgesolution/androiddm-mosquitto-dev:v$MQTT_VERSION edgesolution/andr
 
 docker tag edgesolution/androiddm-novnc-dev:v$NOVNC_VERSION edgesolution/androiddm-novnc:v$NOVNC_VERSION
 
-docker tag edgesolution/androiddm-javaenv-slim-dev:v$ANDROIDDM_VERSION edgesolution/androiddm-javaenv-slim:v$ANDROIDDM__RELEASE_VERSION
+docker tag edgesolution/androiddm-javaenv-slim-dev:v$ANDROIDDM_VERSION edgesolution/androiddm-javaenv-slim:v$ANDROIDDM_RELEASE_VERSION
 
 docker tag edgesolution/androiddm-astore-slim-dev:v$ANDROIDDM_VERSION edgesolution/androiddm-astore-slim:v$ANDROIDDM_RELEASE_VERSION
 
