@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t edgesolution/androiddm-javaenv-slim:v1.0 .
+docker build -t 00718/androiddm-javaenv-slim:v1.0 .

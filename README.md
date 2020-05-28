@@ -14,6 +14,18 @@ Run the Debian slim docker image for AndroidDM
 If you need upload image to Dockerhub, please run Release.sh
 # # cd openjdk8-debian-slim-devel && ./Release.sh
 
+# v1.6.5 version
+ - New features
+  - fixed chinese apk error issue
+ - docker images version
+  - 00718/androiddm-javaenv-slim-dev:v1.6.5
+  - 00718/androiddm-astore-slim-dev:v1.6.5
+  - 00718/androiddm-mosquitto-dev:v1.0
+  - 00718/androiddm-novnc-dev:v1.0
+  - postgres:9.4
+  - portainer/portainer
+  - add select group  in single mode
+
 # v1.2 version
  - New features
   - fixed chinese apk error issue
