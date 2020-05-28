@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t edgesolution/androiddm-astore-slim:v1.0 .
+docker build -t 00718/androiddm-astore-slim:v1.0 .
