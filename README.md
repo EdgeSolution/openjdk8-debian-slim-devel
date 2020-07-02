@@ -49,3 +49,6 @@ If you need upload image to Dockerhub, please run Release.sh
   - edgesolution/androiddm-novnc-dev:v1.0
   - postgres:9.4
   - portainer/portainer
+
+# v1.6.6 version
+  release 1.0.0
