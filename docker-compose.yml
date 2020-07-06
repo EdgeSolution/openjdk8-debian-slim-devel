@@ -1,7 +1,7 @@
 version: '3'
 services:
      androidlink: 
-        image: 00718/androiddm-javaenv-slim-dev:v1.6.8
+        image: 00718/androiddm-javaenv-slim-dev:v1.6.9
         restart: always
         depends_on:
                 - mqtt
@@ -44,7 +44,7 @@ services:
         networks: 
               - advnet
      astore:
-        image: 00718/androiddm-astore-slim-dev:v1.6.8
+        image: 00718/androiddm-astore-slim-dev:v1.6.9
         restart: always
         depends_on:
                 - db
