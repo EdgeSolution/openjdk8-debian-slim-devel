@@ -52,3 +52,7 @@ If you need upload image to Dockerhub, please run Release.sh
 
 # v1.6.6 version
   release 1.0.0
+
+# v1.6.7 version
+  modify version 1.4.0 to 1.4.1 in footer page of androiddm and astore
+  release 1.0.0
