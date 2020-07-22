@@ -49,7 +49,7 @@ services:
         depends_on:
                 - db
         volumes:
-                - ./astore/logs:/home/logs
+                - ./astore/logs:/root/logs
                 - ./astore/data:/var/www/html/DEPLOYREPO
         ports:
                 - "30001:30019"
