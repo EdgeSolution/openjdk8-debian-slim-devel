@@ -1,7 +1,7 @@
 version: '3'
 services:
      androidlink: 
-        image: 172.21.73.113/androiddm/androiddm-javaenv-slim-dev:v1.6.7
+        image: 172.21.73.113/androiddm-aliyun/androiddm-javaenv-slim-dev:v1.0.0
         restart: always
         depends_on:
                 - mqtt
@@ -24,7 +24,7 @@ services:
         environment: 
                 - TZ=Asia/Shanghai
      mqtt:
-        image: 172.21.73.113/androiddm/androiddm-mosquitto-dev:v1.0
+        image: 172.21.73.113/androiddm-aliyun/androiddm-mosquitto-dev:v1.0
         restart: always
         ports: 
                 - "1883:1883"
@@ -44,7 +44,7 @@ services:
         networks: 
               - advnet
      astore:
-        image: 172.21.73.113/androiddm/androiddm-astore-slim-dev:v1.6.7
+        image: 172.21.73.113/androiddm-aliyun/androiddm-astore-slim-dev:v1.0.0
         restart: always
         depends_on:
                 - db
@@ -63,7 +63,7 @@ services:
         environment: 
                 - TZ=Asia/Shanghai
      novnc:
-        image: 172.21.73.113/androiddm/androiddm-novnc-dev:v1.0
+        image: 172.21.73.113/androiddm-aliyun/androiddm-novnc-dev:v1.0
         restart: always
         volumes:
                 - ./java-env/vnctoken/:/root/adv/vnctoken/
