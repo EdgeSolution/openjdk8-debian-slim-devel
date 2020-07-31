@@ -17,3 +17,4 @@ docker build -t $HARBORURL/$REPO/androiddm-javaenv-slim-aliyun:v$ANDROIDDM_VERSI
 
 cd $BUILDPATH/astore/build-docker-image/
 docker build -t $HARBORURL/$REPO/androiddm-astore-slim-aliyun:v$ANDROIDDM_VERSION .
+
